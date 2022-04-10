@@ -9,13 +9,61 @@
 }
 
 html {
-
 font-family: 'Josefin Sans', sans-serif;
 font-family: 'Noto Sans', sans-serif;
-
 }
 
 p {
-
+    color: var(--body);
+    line-height: 1.6;
 }
 
+/* Size of H1 differs from page to page */
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: var(--h1);
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: var(--h2);
+    font-weight: 400;
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: var(--h3);
+    font-weight: 500;
+    font-size: 28px;
+    margin: 0;
+    padding-bottom: 24px;
+    border: 0;
+}
+
+h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: var(--h4);
+    font-weight: 400;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+strong {
+    font-weight: 700;
+}
+
+.global__lead {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 24;
+    line-height: 28px;
+}
