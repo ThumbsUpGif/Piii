@@ -2,31 +2,37 @@
 /* ==============   👩🏾‍🔬    ==============*/
 
 
+
+
+
+
+/* ==============  👩🏾‍🔬   ==============*/
+/* ========= ABOVE THE FOLD  =========*/
+
+
 h1 {
     font-size: 120px;
     font-weight: 200;
 }
 
 
-/* ==============  👩🏾‍🔬   ==============*/
-/* ========= ABOVE THE FOLD  =========*/
 
 /*--- 📱 ---*/
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 699px) {
 
 }
 
 
 
 /*--- 📜 ---*/
-@media only screen and (min-width: 600px) and (max-width: 999px) {
+@media only screen and (min-width: 700px) and (max-width: 1099px)  {
 
 }
 
 
 
 /*--- 💻 ---*/
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1100px) {
 
     .charity__above-the-fold {
     /* background-color: darksalmon; */
@@ -100,7 +106,7 @@ h1 {
 
 
 /*--- 📱 ---*/
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 699px) {
     .charity__keywords__flex-wrapper {
         flex-direction: column;
         padding: 10%;
@@ -114,7 +120,7 @@ h1 {
 
 
 /*--- 📜 ---*/
-@media only screen and (min-width: 600px) and (max-width: 999px) {
+@media only screen and (min-width: 700px) and (max-width: 1099px)  {
 
     .charity__keywords__flex-wrapper {
         flex-direction: row;
@@ -130,7 +136,7 @@ h1 {
 
 
 /*--- 💻 ---*/
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1100px) {
     
     .charity__keywords__flex-wrapper ul {
         /* background-color: slateblue; */
@@ -138,13 +144,12 @@ h1 {
         margin-bottom: 160px;
         margin-left: -18%;
     }
-
 }
+
 
 
 /* ==============  👩🏾‍🔬   =============*/
 /* ============= BRIEF  ============*/
-
 
 
 /*--- 📱 ---*/
@@ -191,7 +196,7 @@ h1 {
 
 
 /*--- 📜 ---*/
-@media only screen and (min-width: 699px) and (max-width: 1099px) {
+@media only screen and (min-width: 700px) and (max-width: 1099px)  {
 
     .charity__brief {
         /* min-height: 70vh; */
@@ -329,7 +334,7 @@ h1 {
 
 
 /*--- 📜 ---*/
-@media only screen and (min-width: 699px) and (max-width: 1099px) {
+@media only screen and (min-width: 700px) and (max-width: 1099px)  {
 
     .charity__survey {
         /* min-height: 70vh; */
@@ -558,5 +563,407 @@ h1 {
         width: 70%;
         height: auto;
         object-fit: contain;
+    }
+}
+
+
+
+
+/* ==============  👩🏾‍🔬   =============*/
+/* ========= QUOTE - DILEMMA ========*/
+
+
+/*--- 📱 ---*/
+@media screen and (max-width: 699px) {
+
+    .charity__quote-dilemma {
+        min-height: 500px;
+        max-height: 700px;
+        padding-top: 100px;
+        padding-bottom: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-left: var(--margin-left-phone);
+        margin-right: var(--margin-right-phone);
+    }
+}
+
+
+/*--- 📜 ---*/
+@media only screen and (min-width: 700px) and (max-width: 1099px) {
+
+    .charity__quote-dilemma {
+        min-height: 600px;
+        max-height: 800px;
+        padding-top: 100px;
+        padding-bottom: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+/*--- 💻 ---*/
+@media only screen and (min-width: 1100px) {
+    
+    .charity__quote-dilemma {
+        min-height: 50vh;
+        padding-top: 100px;
+        padding-bottom: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+
+
+
+/* ==============  👩🏾‍🔬   =============*/
+/* ============= CONCEPT  ============*/
+
+
+/*--- 📱 ---*/
+@media screen and (max-width: 699px) {
+
+    .charity__concept {
+        /* min-height: 70vh; */
+        padding-top: 80px;
+        padding-bottom: 80px;
+        display: flex;
+        flex-direction: column;
+        background-image: var(--charity__background-color);
+        /* border: 1vw solid #fff; */
+    }
+
+    .charity__concept__text-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* max-width: 460px; */
+        margin-left: var(--margin-left-phone);
+        margin-right: var(--margin-right-phone);
+
+        /* padding-bottom: 60px; */
+    }
+
+    .charity__concept__paragraph {
+        max-width: var(--max-width-paragraph);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+
+    .charity__concept__image-wrapper {
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+    }
+}
+
+
+
+/*--- 📜 ---*/
+@media only screen and (min-width: 700px) and (max-width: 1099px)  {
+
+    .charity__concept {
+        /* min-height: 70vh; */
+        background-image: var(--charity__background-color);
+        border: 4vw solid #fff;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .charity__concept__text-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* max-width: 460px; */
+        margin-left: var(--margin-left-phone);
+        margin-right: var(--margin-right-phone);
+
+        /* padding-bottom: 60px; */
+    }
+
+    .charity__concept__paragraph {
+        max-width: var(--max-width-paragraph);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .charity__concept__image-wrapper {
+        display: flex;
+        justify-content: center;
+        padding-top: 100px;
+    }
+
+}
+
+
+/*--- 💻 ---*/
+@media only screen and (min-width: 1100px) {
+    .charity__concept {
+        min-height: 70vh;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        display: flex;
+        flex-direction: row-reverse;
+        background-image: var(--charity__background-color);
+        border: 4.175vw solid #fff;
+    }
+
+    .charity__concept__text-wrapper {
+        /* background-color: bisque; */
+        width: 50%;
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: center;
+        padding-right: 10%;
+    }
+
+    .charity__concept__paragraph {
+        max-width: var(--max-width-paragraph);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .charity__concept__image-wrapper {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+
+
+/* ==============  👩🏾‍🔬   =============*/
+/* ====== PAPER, FULL BLEED =======*/
+
+
+
+/*--- 📱 ---*/
+@media screen and (max-width: 699px) {
+
+    .charity__paper__full-bleed-image-wrapper {
+        display: none;
+    }
+
+}
+
+
+/*--- 📜 ---*/
+@media only screen and (min-width: 700px) and (max-width: 1099px) {
+
+    .charity__paper__full-bleed-image-wrapper {
+        min-height: 500px;
+        height: 60vh;
+        max-height: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 300px;
+        padding-bottom: 200px;
+    }
+
+    .charity__paper__full-bleed-image-wrapper img {
+      
+        width: 100%;
+        height: auto;
+
+        object-position: center;
+        object-fit: cover;
+    }
+
+}
+
+
+/*--- 💻 ---*/
+@media only screen and (min-width: 1100px) {
+    
+    .charity__paper__full-bleed-image-wrapper {
+        min-height: 500px;
+        height: 60vh;
+        max-height: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 500px;
+        padding-bottom: 200px;
+    }
+
+    .charity__paper__full-bleed-image-wrapper img {
+      
+        width: 100%;
+        height: auto;
+
+        object-position: center;
+        object-fit: cover;
+    }
+}
+
+
+
+
+
+/* ==============  👩🏾‍🔬   =============*/
+/* ============ SKETCHES ============*/
+
+/*--- 📱 ---*/
+@media screen and (max-width: 699px) {
+
+    .charity__sketches {
+        /* min-height: 70vh; */
+        padding-top: 160px;
+        padding-bottom: 80px;
+        display: flex;
+        flex-direction: column;
+ 
+        /* border: 1vw solid #fff; */
+    }
+
+    .charity__sketches__text-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* max-width: 460px; */
+        margin-left: var(--margin-left-phone);
+        margin-right: var(--margin-right-phone);
+
+        /* padding-bottom: 60px; */
+    }
+
+    .charity__sketches__paragraph {
+        max-width: var(--max-width-paragraph);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+
+    .charity__sketches__image-wrapper {
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+    }
+
+    .charity__sketches__image-wrapper img {
+        height: 460px;
+        width: auto;
+        object-position: center;
+        object-fit: cover;
+    }
+}
+
+
+
+/*--- 📜 ---*/
+@media only screen and (min-width: 699px) and (max-width: 1099px) {
+
+    .charity__sketches {
+        
+        /* min-height: 70vh; */
+        padding-top: 160px;
+        padding-bottom: 80px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .charity__sketches__text-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* max-width: 460px; */
+        margin-left: var(--margin-left-phone);
+        margin-right: var(--margin-right-phone);
+
+        /* padding-bottom: 60px; */
+    }
+
+    .charity__sketches__paragraph {
+        max-width: var(--max-width-paragraph);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .charity__sketches__image-wrapper {
+        display: flex;
+        justify-content: center;
+        padding-top: 100px;
+    }
+
+    .charity__sketches__image-wrapper img {
+        height: 460px;
+        width: auto;
+        object-position: center;
+        object-fit: cover;
+    }
+
+}
+
+
+/*--- 💻 ---*/
+@media only screen and (min-width: 1100px) {
+    .charity__sketches {
+        background-color: darksalmon;
+        min-height: 70vh;
+        padding-top: 300px;
+        padding-bottom: 120px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .charity__sketches__text-wrapper {
+        background-color: bisque;
+        width: 50%;
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: center;
+        padding: 6%;
+    }
+
+    .charity__sketches__paragraph {
+        max-width: var(--max-width-paragraph);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .charity__sketches__image-wrapper {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* padding-left: 10%; */
+    }
+
+    .charity__sketches__image-wrapper img {
+        height: 500px;
+        width: auto;
+        object-position: center;
+        object-fit: cover;
     }
 }
