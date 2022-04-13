@@ -9,7 +9,7 @@ observerQuotes = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.intersectionRatio > 0) {
             entry.target.style.animation =
-                `animation-quote 0.7s ${entry.target.dataset.delay} forwards ease`
+                `animation-quote 0.8s ${entry.target.dataset.delay} forwards ease`
                 observerQuotes.unobserve(entry.target)
         } else {
             entry.target.style.animation = `none`;

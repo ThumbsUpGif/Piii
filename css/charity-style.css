@@ -132,7 +132,7 @@
     }
 
     .charity__above-the-fold__text-wrapper h3 {
-        font-size: 32px;
+        font-size: 26px;
         font-weight: 500;
         margin-bottom: -20px;
     }
@@ -200,7 +200,7 @@
 
     h1 {
         font-size: 120px;
-        font-weight: 200;
+        font-weight: 100;
     }
 
     .charity__above-the-fold__desktop-view {
@@ -224,7 +224,7 @@
     .charity__above-the-fold .global__lead {
         grid-column: 2 / 7;
         grid-row: 8 / 11;
-        /* padding: 4%; */
+        padding: 25px;
     }
 
     .charity__above-the-fold__color-box {

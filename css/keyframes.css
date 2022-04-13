@@ -9,7 +9,7 @@
 @keyframes animation-quote{
     from {
         /* transform: translateY(-3vw); */
-        opacity: 0.4;
+        opacity: 0.2;
     }
 
     to  {
