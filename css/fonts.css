@@ -28,6 +28,7 @@ h1 {
     border: 0;
 }
 
+
 h2 {
     font-family: 'Josefin Sans', sans-serif;
     color: var(--h2);
@@ -37,6 +38,7 @@ h2 {
     padding: 0;
     border: 0;
 }
+
 
 h3 {
     font-family: 'Josefin Sans', sans-serif;
@@ -75,4 +77,23 @@ blockquote {
     font-family: 'Noto Sans', sans-serif;
     font-size: 24;
     line-height: 28px;
+}
+
+
+
+
+/*--- 📱 ---*/
+@media screen and (max-width: 699px) {
+
+    h2 {
+        font-weight: 500;
+        font-size: 28px;
+    }
+
+    blockquote {
+        font-weight: 200;
+        font-size: 26px;
+        line-height: 30px;
+        /* max-width: 560px; */
+    }
 }
