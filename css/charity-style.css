@@ -116,7 +116,7 @@
 
     .charity__above-the-fold__mobile-tablet-flex-wrapper {
         /* background-color: pink; */
-        height: 60vh;
+        height: 50vh;
         display: flex;
         flex-direction: row;
     }
@@ -139,8 +139,9 @@
 
     .charity__above-the-fold__text-wrapper h1 {
         /* background-color: lightgreen; */
-        font-size: 60px;
+        font-size: 8vw;
         font-weight: 200;
+        z-index: 2;
     }
 
     .charity__above-the-fold__image-wrapper__mobile-tablet {
@@ -156,8 +157,8 @@
 
     .charity__above-the-fold__image-wrapper__mobile-tablet img {
         
-        height: 40vh;
-        width: auto;
+        height: auto;
+        width: 90%;
         max-height: 520px;
     }
 
