@@ -888,7 +888,6 @@
         height: auto;
         object-fit: contain;
     }
-
 }
 
 
@@ -927,7 +926,6 @@
         align-items: center;
         justify-content: center;
     }
-
 }
 
 
@@ -943,7 +941,6 @@
     .charity__paper__full-bleed-image-wrapper {
         display: none;
     }
-
 }
 
 
@@ -969,7 +966,6 @@
         object-position: center;
         object-fit: cover;
     }
-
 }
 
 

@@ -39,6 +39,17 @@ h2 {
     border: 0;
 }
 
+/*--- 📱 ---*/
+@media screen and (max-width: 599px) {
+
+    h2{
+        /* background-color: darksalmon; */
+        font-size: 32px;
+        font-weight: 100;
+    }
+
+}
+
 
 h3 {
     font-family: 'Josefin Sans', sans-serif;
@@ -49,6 +60,8 @@ h3 {
     padding-bottom: 24px;
     border: 0;
 }
+
+
 
 h4 {
     font-family: 'Josefin Sans', sans-serif;

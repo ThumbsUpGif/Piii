@@ -18,6 +18,7 @@
     --quote: #000;
 
     --charity__background-color: linear-gradient(174.68deg, #E7E7E7 4.94%, rgba(207, 201, 181, 0.97) 84.53%);
+    --playground__background-color:  linear-gradient(159.4deg, #F9DF86 13.66%, #FFD335 88.35%);
 
     --margin-left-phone: 6vw;
     --margin-right-phone: 6vw;
@@ -83,7 +84,6 @@ li {
 }
 
 
-
 /*--- 📜 ---*/
 @media only screen and (min-width: 600px) and (max-width: 999px) {
 
@@ -101,7 +101,6 @@ li {
     .global__above-the-fold__back-to-first img {
         padding: 20px;
     }
-
 }
 
 
