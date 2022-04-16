@@ -21,32 +21,39 @@
         display: none;
     }
 
+    .charity__above-the-fold__tablet-view {
+        display: none;
+    }
+
     .charity__above-the-fold {
         height: 100vh;
-        margin-left: var(--margin-left-phone);
-        margin-right: var(--margin-right-phone);
     }
 
     .global__above-the-fold__back-to-first img {
         width: 48px;
         height: auto;
-        /* margin-top: -10px; */
-        margin-left: -10px;
+        margin: 30px;
+        margin-left: 15px;
+        /* margin-left: var(--margin-left-phone); */
+        /* margin-right: var(--margin-right-phone); */
     }
 
-    .charity__above-the-fold__mobile-tablet-flex-wrapper {
-        /* background-color: pink; */
+    .charity__above-the-fold__mobile-flex-wrapper {
+        /* background-color: lemonchiffon; */
         height: 60vh;
         display: flex;
         flex-direction: column;
         margin-top: -10px;
-        margin-bottom: -20px;
+        /* margin-bottom: -20px; */
     }
 
     .charity__above-the-fold__text-wrapper {
         /* background-color: aqua; */
         padding-top: 80px;
-        height: 30%;
+        margin-bottom: 10px;
+        height: 40%;
+        margin-left: var(--margin-left-phone);
+        margin-right: var(--margin-right-phone);
     }
 
     .charity__above-the-fold__text-wrapper h3 {
@@ -57,45 +64,98 @@
 
     .charity__above-the-fold__text-wrapper h1 {
         /* background-color: lightgreen; */
-        font-size: 48px;
+        font-size: 14vw;
         font-weight: 200;
     }
 
-    .charity__above-the-fold__image-wrapper__mobile-tablet {
+    .charity__above-the-fold__image-wrapper__mobile {
+        /* background-color: lightblue; */
+        /* position: relative; */
+        margin-top: 20px;
+        height: 60vh;
+        width: 100%;
+    }
+
+    .charity__above-the-fold__color-box-wrapper__mobile {
+        /* background-color: bisque; */
+        position: relative;
+        z-index: 1;
+        height: 100%;
+        width: 100%;
+        /* z-index: 1; */
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .charity__above-the-fold__color-box__mobile {
+        background-image: var(--charity__background-color);
+        height: 90%;
+        width: 50%;
+        /* z-index: ; */
+        margin-right: 4%;
+    }
+
+    .charity__above-the-fold__photo-wrapper__mobile {
         /* background-color: orange; */
+        position: relative;
+        z-index: 3;
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 70%;
-        max-height: 60vh;
+        height: 100%;
         width: auto;
+        margin-top: -85%;
     }
 
-    .charity__above-the-fold__image-wrapper__mobile-tablet img {
-        height: 80%;
-        width: auto;
-        /* max-height: 30%; */
+
+    @media only screen and (max-height: 740px) {
+
+        .charity__above-the-fold {
+            /* background-color: blueviolet; */
+        }
+
+        .charity__above-the-fold__photo-wrapper__mobile {
+            /* background-color: orange; */
+            /* padding-top: 80px; */
+            margin-top: -50%;
+        }
+
+        .charity__above-the-fold__mobile-lead-wrapper {
+            padding-top: 10px;
+        }
+
     }
 
-    .charity__above-the-fold__tablet-mobile-lead-wrapper {
+
+    .charity__above-the-fold__photo-wrapper__mobile img {
+        height: auto;
+        margin-top: 10px;
+        width: 80%;
+        max-height: 40vh;
+    }
+
+    .charity__above-the-fold__mobile-lead-wrapper {
         /* background-color: bisque; */
         height: 30vh;
         line-height: 22px;
+        margin-left: var(--margin-left-phone);
+        margin-right: var(--margin-right-phone);
+        margin-top: 40px;
     }
 
-    .charity__above-the-fold__tablet-mobile-lead-wrapper a {
+    .charity__above-the-fold__mobile-lead-wrapper a {
         line-height: 20px;
-    }
-
-    .charity__above-the-fold__image-wrapper,
-    .charity__above-the-fold__color-box {
-        display: none;
     }
 }
 
 
 /*--- 📜 ---*/
-@media only screen and (min-width: 700px) and (max-width: 1139px) {
+@media only screen and (min-width: 700px) and (max-width: 1099px) {
+
+    .charity__above-the-fold__mobile-view {
+        display: none;
+    }
 
     .charity__above-the-fold__desktop-view {
         display: none;
@@ -103,89 +163,92 @@
 
     .charity__above-the-fold {
         height: 100vh;
-        margin-left: var(--margin-left-phone);
-        margin-right: var(--margin-right-phone);
     }
 
-    .global__above-the-fold__back-to-first img {
-        width: 48px;
+    .global__above-the-fold__back-to-first {
+        /* background-color: burlywood; */
+        width: 100%;
         height: auto;
-        margin-top: 40px;
-        margin-left: -10px;
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-bottom: 10px;
     }
 
-    .charity__above-the-fold__mobile-tablet-flex-wrapper {
-        /* background-color: pink; */
-        height: 50vh;
+    .charity__above-the-fold__image-wrapper__tablet {
+        /* background-color: lightblue; */
+        /* position: relative; */
+        margin-top: 20px;
+        height: 60vh;
+        width: 100%;
+    }
+
+    .charity__above-the-fold__color-box-wrapper__tablet {
+        /* background-color: bisque; */
+        position: relative;
+        z-index: 1;
+        height: 100%;
+        width: 100%;
+        /* z-index: 1; */
         display: flex;
-        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .charity__above-the-fold__color-box__tablet {
+        background-image: var(--charity__background-color);
+        height: 84%;
+        width: 50%;
+        margin-right: 4%;
+        margin-top: 4%;
+        margin-bottom: 12%;
+    }
+
+    .charity__above-the-fold__photo-wrapper__tablet {
+        /* background-color: orange; */
+        position: relative;
+        z-index: 3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: auto;
+        margin-top: -87%;
+    }
+
+    .charity__above-the-fold__photo-wrapper__tablet img {
+        height: 80%;
+        width: auto;
+        max-height: 60vh;
     }
 
     .charity__above-the-fold__text-wrapper {
-        /* background-color: aqua; */
-        width: 60%;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-end;
-   
-    }
-
-    .charity__above-the-fold__text-wrapper h3 {
-        font-size: 26px;
-        font-weight: 500;
-        margin-bottom: -20px;
+        /* background-color: blanchedalmond; */
+        height: 15vh;
+        padding-top: 0px;
+        padding-left: 5%;
     }
 
     .charity__above-the-fold__text-wrapper h1 {
         /* background-color: lightgreen; */
-        font-size: 8vw;
+        font-size: 14vw;
         font-weight: 200;
         z-index: 2;
     }
 
-    .charity__above-the-fold__image-wrapper__mobile-tablet {
-        /* background-color: orange; */
-        width: 40%;
-        display: flex;
-        align-items: flex-end;
-        justify-content: center;
-        /* height: 70%; */
-        /* max-height: 60vh; */
-        /* width: auto; */
+    .charity__above-the-fold__text-wrapper h3 {
+        font-size: 24px;
+        font-weight: 500;
+        /* margin-bottom: -20px; */
     }
 
-    .charity__above-the-fold__image-wrapper__mobile-tablet img {
-        
-        height: auto;
-        width: 90%;
-        max-height: 520px;
-    }
-
-
-    .charity__above-the-fold__tablet-mobile-lead-wrapper {
+    .charity__above-the-fold__tablet-lead-wrapper {
         /* background-color: bisque; */
-        height: 20vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-
+        height: 25vh;
         line-height: 22px;
-    }
-
-    .charity__above-the-fold__tablet-mobile-lead-wrapper p {
-        max-width: 520px;
-    }
-
-    .charity__above-the-fold__tablet-mobile-lead-wrapper a {
-        line-height: 20px;
-    }
-
-
-
-    .charity__above-the-fold__image-wrapper,
-    .charity__above-the-fold__color-box {
-        display: none;
+        z-index: 3;
+        padding: 10px 10px 10px 8%;
+        max-width: 480px;
+        /* padding-left: 2%; */
     }
 
 }
@@ -193,11 +256,16 @@
 
 
 /*--- 💻 ---*/
-@media only screen and (min-width: 1140px) {
+@media only screen and (min-width: 1100px) {
 
-    .charity__above-the-fold__mobile-tablet-view {
+    .charity__above-the-fold__mobile-view {
         display: none;
     }
+
+    .charity__above-the-fold__tablet-view {
+        display: none;
+    }
+
 
     h1 {
         font-size: 120px;
