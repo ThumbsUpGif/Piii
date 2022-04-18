@@ -88,6 +88,11 @@ blockquote {
         font-weight: 500;
     }
 
+.index__about a {
+    text-decoration: underline;
+}
+
+
 
 /*--- 📱 ---*/
 @media screen and (max-width: 699px) {
