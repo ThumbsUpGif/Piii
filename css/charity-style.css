@@ -497,7 +497,9 @@
 /*--- 💻 ---*/
 @media only screen and (min-width: 1100px) {
     .charity__brief {
-        min-height: 70vh;
+        min-height: 700px;
+        height: 70vh;
+        max-height: 800px;
         padding-top: 120px;
         padding-bottom: 120px;
         display: flex;
@@ -639,7 +641,9 @@
 /*--- 💻 ---*/
 @media only screen and (min-width: 1100px) {
     .charity__survey {
-        min-height: 70vh;
+        min-height: 700px;
+        height: 70vh;
+        max-height: 900px;
         padding-top: 120px;
         padding-bottom: 120px;
         display: flex;
@@ -783,7 +787,9 @@
 /*--- 💻 ---*/
 @media only screen and (min-width: 1100px) {
     .charity__insights {
-        min-height: 70vh;
+        min-height: 800px;
+        height: 70vh;
+        max-height: 900px;
         padding-top: 120px;
         padding-bottom: 120px;
         display: flex;
@@ -866,7 +872,9 @@
 @media only screen and (min-width: 1100px) {
 
     .charity__quote-dilemma {
-        min-height: 50vh;
+        min-height: 500px;
+        height: 50vh;
+        max-height: 800px;
         padding-top: 80px;
         padding-bottom: 120px;
         display: flex;
@@ -981,7 +989,9 @@
 /*--- 💻 ---*/
 @media only screen and (min-width: 1100px) {
     .charity__concept {
-        min-height: 70vh;
+        min-height: 700px;
+        height: 70vh;
+        max-height: 800px;
         padding-top: 120px;
         padding-bottom: 120px;
         display: flex;
@@ -1190,7 +1200,9 @@
 @media only screen and (min-width: 1100px) {
     .charity__sketches {
         /* background-color: darksalmon; */
-        min-height: 70vh;
+        min-height: 700px;
+        height: 70vh;
+        max-height: 900px;
         padding-top: 300px;
         padding-bottom: 200px;
         display: flex;
@@ -1392,9 +1404,11 @@
 /*--- 💻 ---*/
 @media only screen and (min-width: 1100px) {
     .charity__visual-design {
-        min-height: 70vh;
-        padding-top: 100px;
-        padding-bottom: 120px;
+        min-height: 700px;
+        height: 70vh;
+        max-height: 900px;
+        padding-top: 200px;
+        padding-bottom: 80px;
         display: flex;
         flex-direction: row-reverse;
     }
@@ -1537,7 +1551,9 @@
 /*--- 💻 ---*/
 @media only screen and (min-width: 1100px) {
     .charity__photos {
-        min-height: 70vh;
+        min-height: 700px;
+        height: 70vh;
+        max-height: 900px;
         padding-top: 100px;
         padding-bottom: 120px;
         display: flex;
@@ -1683,7 +1699,9 @@
 /*--- 💻 ---*/
 @media only screen and (min-width: 1100px) {
     .charity__copy {
-        min-height: 70vh;
+        min-height: 700px;
+        height: 70vh;
+        max-height: 900px;
         padding-top: 100px;
         padding-bottom: 200px;
         display: flex;
@@ -1887,7 +1905,9 @@
 /*--- 💻 ---*/
 @media only screen and (min-width: 1100px) {
     .charity__responsive {
-        min-height: 70vh;
+        min-height: 700px;
+        height: 70vh;
+        max-height: 900px;
         padding-top: 260px;
         padding-bottom: 120px;
         display: flex;
@@ -2033,9 +2053,11 @@
 /*--- 💻 ---*/
 @media only screen and (min-width: 1100px) {
     .charity__WCAG {
-        min-height: 60vh;
-        padding-top: 100px;
-        padding-bottom: 120px;
+        min-height: 600px;
+        height: 60vh;
+        max-height: 800px;
+        padding-top: 60px;
+        padding-bottom: 60px;
         display: flex;
         flex-direction: row-reverse;
     }
@@ -2114,7 +2136,9 @@
 @media only screen and (min-width: 1100px) {
 
     .charity__quote-summary {
-        min-height: 50vh;
+        min-height: 600px;
+        height: 60vh;
+        max-height: 800px;
         padding-top: 80px;
         padding-bottom: 120px;
         display: flex;
@@ -2249,9 +2273,11 @@
 @media only screen and (min-width: 1100px) {
 
     .charity__coding {
-        min-height: 70vh;
-        padding-top: 120px;
-        padding-bottom: 120px;
+        min-height: 900px;
+        height: 70vh;
+        max-height: 900px;
+        padding-top: 60px;
+        padding-bottom: 60px;
         display: flex;
         flex-direction: column;
         background-image: var(--charity__background-color);
@@ -2481,10 +2507,10 @@
 @media only screen and (min-width: 700px) and (max-width: 1099px) {
 
     .charity__link {
-        min-height: 600px;
-        max-height: 800px;
+        min-height: 500px;
+        max-height: 600px;
         padding-top: 100px;
-        padding-bottom: 140px;
+        /* padding-bottom: 140px; */
         display: flex;
         align-items: center;
         justify-content: center;
