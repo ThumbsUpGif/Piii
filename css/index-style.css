@@ -1,0 +1,410 @@
+/* =============== INDEX =============*/
+/* ==============   🚀    ==============*/
+
+
+
+
+
+
+/* ==============  🚀  ==============*/
+/* ========= ABOVE THE FOLD  =========*/
+
+
+/*--- 📱 ---*/
+@media screen and (max-width: 699px) {
+
+    .index__above-the-fold {
+        height: 100vh;
+        /* width: 100%; */
+        margin-left: var(--margin-left-phone);
+        margin-right: var(--margin-right-phone);
+    }
+
+    .index__nav-wrapper {
+        background-color: pink;
+        display: flex;
+        flex-direction: row;
+        height: 100px;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .index__nav-left {
+        /* background-color: aquamarine; */
+        width: 50%;
+        margin-left: 6px;
+        justify-content: center;
+    }
+
+    .index__nav-right {
+        background-color: chartreuse;
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        /* margin-rght: 10px; */
+    }
+
+    .index__nav-right ul {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .index__nav-right ul li {
+        /* background-color: yellow; */
+        display: flex;
+        justify-content:flex-end;
+        /* margin-top: -6px; */
+        /* margin-bottom: -20px; */
+    }
+
+    /* 00000000000000000 */
+
+}
+
+
+
+/*--- 📜 ---*/
+@media only screen and (min-width: 700px) and (max-width: 1099px) {
+
+    .index__above-the-fold {
+        height: 100vh;
+        /* width: 100%; */
+    }
+
+    .index__nav-wrapper {
+        background-color: pink;
+        display: flex;
+        flex-direction: row;
+        height: 100px;
+        /* width: 100%; */
+        justify-content: space-between;
+        margin-top: 3vw;
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+
+    .index__nav-left {
+        /* background-color: aquamarine; */
+        width: 50%;
+        margin-left: 6px;
+        justify-content: center;
+    }
+
+    .index__nav-right {
+        background-color: chartreuse;
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        /* margin-rght: 10px; */
+    }
+
+    .index__nav-right ul {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .index__nav-right ul li {
+        /* background-color: yellow; */
+        display: flex;
+        justify-content:flex-end;
+        /* margin-top: -6px; */
+        /* margin-bottom: -20px; */
+    }
+
+    /* 00000000000000000 */
+
+}
+
+
+/*--- 💻 ---*/
+@media only screen and (min-width: 1100px) {
+    
+    .index__above-the-fold {
+        /* background-color: lightcoral; */
+        min-height: 700px;
+        height: 80vh;
+        max-height: 900px;
+        padding-bottom: 120px;
+    }
+
+    .index__nav-wrapper {
+        display: flex;
+        flex-direction: row;
+        height: 10vh;
+        margin-top: 20px;
+    }
+
+    .index__nav-left {
+        /* background-color: aquamarine; */
+        width: 30%;
+        margin-left: 2vw;
+        margin-right: 3vw;
+        justify-content: center;
+
+    }
+
+    .index__nav-right {
+        /* background-color: chartreuse; */
+        width: 70%;
+
+    }
+
+    .index__nav-right ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .index__nav-right ul li {
+        margin-left: 3vw;
+        margin-right: 2vw;
+    }
+
+    /* 00000000000000000 */
+
+    .index___above-the-fold__mobile-view {
+        display: none;
+    }
+    
+    .index___above-the-fold__tablet-view {
+        display: none;
+    }
+    
+    h1 {
+        font-size: 90px;
+        font-weight: 100;
+    }
+
+    h1 span {
+        font-size: 60px;
+    }
+    
+    .index__above-the-fold__desktop-hero {
+        /* background-color: yellow; */
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(12, 8.33%);
+        grid-template-rows: repeat(10, 1fr);
+    }
+    
+    .index__above-the-fold__text-wrapper {
+        /* background-color: pink; */
+        grid-column: 2 / 9;
+        grid-row: 5 / 7;
+        transform: translateX(-4.175vw);
+        /* transform: translateY(-10%); */
+        z-index: 2;
+    }
+    
+    .index__above-the-fold__text-wrapper__lead {
+        grid-column: 2 / 7;
+        grid-row: 7 / 10;
+        transform: translateX(-4.175vw);
+        margin-top: 60px;
+        padding: 10px;
+    }     
+    
+    
+    .index__above-the-fold .global__lead {
+        /* background-color: aquamarine; */
+        max-width: 440px;
+    }
+    
+    .index__above-the-fold__image-wrapper__desktop {
+        grid-column: 9 / 13;
+        grid-row: 4 / 11;
+        z-index: 2;
+        transform: translateY(5%);
+    }
+    
+    
+    .index__above-the-fold__image-wrapper__desktop img {
+        height: 70%;
+        width: auto;
+        z-index: 2;
+        /* filter: drop-shadow(0px 8px 6px rgba(0, 0, 0, 0.25)); */
+    }
+    
+    .index__above-the-fold__background-image__desktop {
+        grid-column: 10 / 13;
+        grid-row: 1 / 10;
+        margin-right: 4.175vw;
+        background-image: var(--index__background-color);
+        z-index: 1;
+        object-fit: cover;
+        background-repeat: none;
+    }
+
+        /*--- 💻💻 ---*/
+        @media only screen and (min-width: 1100px) and (max-width: 1300px) {
+
+            .index__above-the-fold__text-wrapper h1 {
+                /* background-color: lightgreen; */
+                font-size: 6vw;
+                font-weight: 200;
+            }
+
+            .index__above-the-fold__text-wrapper h1 span {
+                font-size: 3.6vw;
+            }
+
+    
+            .index__above-the-fold__text-wrapper__lead {
+
+                grid-row: 6 / 10;
+                margin-top: 80px;
+            }     
+
+        }
+
+}
+
+
+
+
+
+
+/* ==============  🚀  ==============*/
+/* ========== WORK CHARITY ==========*/
+
+/*--- 📱 ---*/
+@media screen and (max-width: 699px) {}
+
+
+/*--- 📜 ---*/
+@media only screen and (min-width: 700px) and (max-width: 1099px) {}
+
+
+/*--- 💻 ---*/
+@media only screen and (min-width: 1100px) {
+
+
+  .index__work__charity  .index__work__card {
+        /* background-color: lightpink; */
+        height: 60vh;
+        min-height: 700px;
+        max-height: 800px;
+        margin-top: 160px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .index__work__image-wrapper {
+        /* background-color: darksalmon; */
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .index__work__charity .index__work__image-wrapper img {
+        width: 50%;
+    }
+
+    .index__work__text-wrapper {
+        /* background-color: lightgoldenrodyellow; */
+        width: 50%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+
+    .index__work__text-wrapper h2 {
+        font-size: 60px;
+        font-weight: 200;
+        padding-left: 10%;
+    }
+
+    .index__work__arrow-wrapper {
+        /* background-color: pink; */
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .index__work__arrow-wrapper img {
+        /* background-color: darkkhaki; */
+        padding: 30px;
+        padding-right: 30%;
+        /* align-self: center; */
+    }
+}
+
+
+
+
+/* ==============  🚀  ==============*/
+/* ========= WORK PLAYGROUND ========*/
+
+/*--- 📱 ---*/
+@media screen and (max-width: 699px) {}
+
+
+/*--- 📜 ---*/
+@media only screen and (min-width: 700px) and (max-width: 1099px) {}
+
+
+/*--- 💻 ---*/
+@media only screen and (min-width: 1100px) {
+
+    .index__work__playground .index__work__card {
+        /* background-color: mintcream; */
+        height: 60vh;
+        min-height: 700px;
+        max-height: 800px;
+        /* margin-top: 160px; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .index__work__playground .index__work__image-wrapper img {
+        width: 65%;
+    }
+}
+
+
+
+/* ==============  🚀  ==============*/
+/* =========== WORK ELECTRON ========*/
+
+/*--- 📱 ---*/
+@media screen and (max-width: 699px) {}
+
+
+/*--- 📜 ---*/
+@media only screen and (min-width: 700px) and (max-width: 1099px) {}
+
+
+/*--- 💻 ---*/
+@media only screen and (min-width: 1100px) {
+
+    .index__work__electron .index__work__card {
+        /* background-color: lightyellow; */
+        height: 60vh;
+        min-height: 700px;
+        max-height: 800px;
+        /* margin-top: 160px; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .index__work__electron .index__work__image-wrapper img {
+        width: 80%;
+    }
+
+}

@@ -39,17 +39,6 @@ h2 {
     border: 0;
 }
 
-/*--- 📱 ---*/
-@media screen and (max-width: 599px) {
-
-    h2{
-        /* background-color: darksalmon; */
-        font-size: 32px;
-        font-weight: 100;
-    }
-
-}
-
 
 h3 {
     font-family: 'Josefin Sans', sans-serif;
@@ -92,14 +81,19 @@ blockquote {
     line-height: 28px;
 }
 
-
+.index__nav-wrapper h4 {
+    /* background-color: yellow; */
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+    }
 
 
 /*--- 📱 ---*/
 @media screen and (max-width: 699px) {
 
     h2 {
-        font-weight: 500;
+        font-weight: 400;
         font-size: 28px;
     }
 
@@ -110,3 +104,6 @@ blockquote {
         /* max-width: 560px; */
     }
 }
+
+
+
