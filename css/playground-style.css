@@ -208,8 +208,8 @@
 
     .playground__above-the-fold__desktop-view {
         /* background-color: darksalmon; */
+        min-height: 740px;
         height: 100vh;
-
         max-height: 900px;
         display: grid;
         grid-template-columns: repeat(12, 8.33%);
@@ -435,9 +435,11 @@
 /*--- 💻 ---*/
 @media only screen and (min-width: 1100px) {
     .playground__brief {
-        min-height: 70vh;
+        min-height: 700px;
+        height: 70vh;
+        max-height: 900px;
         padding-top: 40px;
-        padding-bottom: 120px;
+        padding-bottom: 60px;
         display: flex;
         flex-direction: row;
     }
@@ -621,9 +623,11 @@
 /*--- 💻 ---*/
 @media only screen and (min-width: 1100px) {
     .playground__research {
-        min-height: 70vh;
-        padding-top: 80px;
-        padding-bottom: 120px;
+        min-height: 700px;
+        height: 70vh;
+        max-height: 900px;
+        padding-top: 100px;
+        padding-bottom: 100px;
         display: flex;
         flex-direction: row-reverse;
     }
@@ -933,9 +937,11 @@
 @media only screen and (min-width: 1100px) {
 
     .playground__concept {
-        min-height: 70vh;
-        padding-top: 120px;
-        padding-bottom: 120px;
+        min-height: 700px;
+        height: 70vh;
+        max-height: 800px;
+        padding-top: 100px;
+        padding-bottom: 100px;
         display: flex;
         flex-direction: row;
         background-image: var(--playground__background-color);
@@ -1121,9 +1127,11 @@
 /*--- 💻 ---*/
 @media only screen and (min-width: 1100px) {
     .playground__sketching {
-        min-height: 70vh;
-        padding-top: 120px;
-        padding-bottom: 120px;
+        min-height: 700px;
+        height: 70vh;
+        max-height: 900px;
+        padding-top: 160px;
+        padding-bottom: 140px;
         display: flex;
         flex-direction: row-reverse;
     }
@@ -1315,7 +1323,9 @@
 /*--- 💻 ---*/
 @media only screen and (min-width: 1100px) {
     .playground__wireframes {
-        min-height: 70vh;
+        min-height: 600px;
+        height: 70vh;
+        max-height: 800px;
         padding-top: 120px;
         padding-bottom: 120px;
         display: flex;
@@ -1409,9 +1419,9 @@
 
     .playground__flowchart {
         /* background-color: pink; */
-        min-height: 800px;
+        min-height: 700px;
         height: 70vh;
-        max-height: 1200px;
+        max-height: 800px;
 
     }
 
@@ -1443,9 +1453,11 @@
 @media screen and (max-width: 699px) {
 
     .playground__navigation {
-        /* min-height: 70vh; */
-        padding-top: 80px;
-        padding-bottom: 80px;
+        min-height: 600px;
+        height: 70vh;
+        max-height: 800px;
+        padding-top: 40px;
+        padding-bottom: 140px;
         display: flex;
         flex-direction: column;
 
@@ -1690,9 +1702,11 @@
 /*--- 💻 ---*/
 @media only screen and (min-width: 1100px) {
     .playground__visual-design {
-        min-height: 70vh;
+        min-height: 700px;
+        height: 70vh;
+        max-height: 900px;
         padding-top: 120px;
-        padding-bottom: 120px;
+        padding-bottom: 100px;
         display: flex;
         flex-direction: row;
     }
