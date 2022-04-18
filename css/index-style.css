@@ -616,7 +616,7 @@
     }
 
     .index__work__charity .index__work__image-wrapper img {
-        width: 70%;
+        width: 40%;
     }
 }
 
@@ -663,7 +663,7 @@
     }
 
     .index__work__playground .index__work__image-wrapper img {
-        width: 65%;
+        width: 50%;
         height: auto;
         max-width: 500px;
     }
@@ -710,7 +710,7 @@
     }
 
     .index__work__electron .index__work__image-wrapper img {
-        width: 80%;
+        width: 70%;
     }
 }
 
