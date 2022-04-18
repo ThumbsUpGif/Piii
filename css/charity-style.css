@@ -319,7 +319,7 @@
     }
 
     .charity__above-the-fold__image-wrapper__desktop {
-        background-image: url(/assets/charity__vials.png);
+        background-image: url(../assets/charity__vials.png);
         background-repeat: no-repeat;
         background-size: contain;
         margin: 4.175vw;
