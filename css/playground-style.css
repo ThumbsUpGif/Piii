@@ -73,7 +73,7 @@
         height: 70vh;
         /* max-height: 60vh; */
         width: auto;
-        background-image: url(../assets/playground__background-mobile.png);
+        background-image: url(./assets/playground__background-mobile.png);
         background-position: right;
         z-index: -1;
         object-fit: cover;
@@ -132,7 +132,7 @@
         justify-content: center;
         height: 60vh;
         width: auto;
-        background-image: url(../assets/playground__background-mobile.png);
+        background-image: url(./assets/playground__background-mobile.png);
         background-position: right;
         z-index: -1;
         object-fit: cover;
@@ -258,7 +258,7 @@
         grid-column: 8 / 13;
         grid-row: 1 / 11;
         margin-left: 4.175vw;
-        background-image: url(../assets/playground__background-desktop.png);
+        background-image: url(./assets/playground__background-desktop.png);
         z-index: 1;
         object-fit: cover;
         background-repeat: none;
