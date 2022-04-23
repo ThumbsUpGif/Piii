@@ -722,6 +722,10 @@
 /*--- 📱 ---*/
 @media screen and (max-width: 699px) {
 
+    .index__about h2 {
+        margin-bottom: -12px;
+    }
+
     .index__about {
         margin-left: var(--margin-left-phone);
         margin-right: var(--margin-right-phone);
@@ -748,6 +752,9 @@
 /*--- 📜 ---*/
 @media only screen and (min-width: 700px) and (max-width: 1099px) {
 
+    .index__about h2 {
+        margin-bottom: -8px;
+    }
 
     .index__about {
         /* background-color: lightcoral; */
@@ -801,6 +808,10 @@
 
 /*--- 💻 ---*/
 @media only screen and (min-width: 1100px) {
+
+    .index__about h2 {
+        margin-bottom: -8px;
+    }
 
     .index__about {
         /* background-color: lightcoral; */
